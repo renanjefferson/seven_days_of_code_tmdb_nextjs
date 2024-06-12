@@ -25,13 +25,13 @@ export function Label({
 }
 
 export function Container(props: ContainerProps) {
-  return <div className="bg-tertiary rounded-lg px-3 py-2" {...props} />;
+  return <div className="flex rounded-lg bg-tertiary px-3 py-2" {...props} />;
 }
 
 export function Control(props: ControlProps) {
   return (
     <input
-      className="h-12 w-full bg-transparent text-lg font-semibold text-white placeholder-stone-400 outline-none placeholder:font-normal"
+      className="h-12 flex-1 bg-transparent text-lg font-semibold text-white placeholder-stone-400 outline-none placeholder:font-normal"
       {...props}
     />
   );
