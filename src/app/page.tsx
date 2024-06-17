@@ -1,9 +1,5 @@
-import { Search } from "@/components/Search";
+import { HomePage } from "@/components/pages/HomePage";
 
 export default function Home() {
-  return (
-    <>
-      <Search />
-    </>
-  );
+  return <HomePage />;
 }
